@@ -1,0 +1,9 @@
+function header --> def my_function(a, b, c)
+
+calling function -> my_function(3, 2, 1)
+
+a = 3
+b = 2
+c = 1
+
+Since function assigns arguments to parameter variables according to their position.
