@@ -8,6 +8,7 @@ total_rainfall = 0.0
 month_accumulator = 0
 
 # Getting input on the rainfall for each month and calculating total_rainfall.
+# A year has 12 months
 for year in range(1,number_of_years+1):
     for month in range(1,13):
         month_rainfall = float(input("Inches of rainfall for year " +  str(year) + " and month " + str(month) + ": "))
