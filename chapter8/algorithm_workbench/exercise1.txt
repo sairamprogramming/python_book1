@@ -1,0 +1,5 @@
+if choice == 'y' or choice == 'Y':
+
+can be written as 
+
+if choice.lower() == 'y':
