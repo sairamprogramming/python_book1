@@ -1,0 +1,48 @@
+1.18 A CPU understands instructions that are written only in what language?
+
+Sol: The CPU understands instructions that are written in machine language.
+
+1.19 A program has to be copied into what type of memory each time the CPU
+     executes it?
+
+Sol: Main memory.
+
+1.20 When a CPU executes the instructions in a program, it is engaged in what process?
+
+Sol: fetch - decode - execute cycle.
+
+1.21 What is assembly language?
+
+Sol: Assembly language is a low level language, it uses mnemonics(short words) to instruct the computer
+     on what tasks to perform. It is used since the difficulty of a person to program in machine language
+     is too high.
+
+     Since the CPU only understands machine language, a special program known as 'assembler' is used to translate
+     assembly language program to machine language program.
+
+1.22 What type of programming language allows you to create powerful and complex
+     programs without knowing how the CPU works?
+
+Sol: High-level languages, example python, java etc ..
+
+1.23 Each language has a set of rules that must be strictly followed when writing a
+     program. What is this set of rules called?
+
+Sol: Syntax.
+
+1.24 What do you call a program that translates a high-level language program into a
+     separate machine language program?
+
+Sol: A compliler is a program that translates a high-level language program into a separate machine language
+     program. Examples are java, c , c++ etc .. 
+
+1.25 What do you call a program that both translates and executes the instructions in
+     a high-level language program?
+
+Sol: An interpreter reads each individual instruction in the program, it converts it to machine language instruction
+     and then immediately executes it.
+
+1.26 What type of mistake is usually caused by a misspelled key word, a missing
+     punctuation character, or the incorrect use of an operator?
+
+Sol: A syntax error.

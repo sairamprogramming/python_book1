@@ -1,0 +1,27 @@
+1.12 What amount of memory is enough to store a letter of the alphabet or a small
+     number?
+    
+Sol: One byte is enough to store a letter of the alphabet or a small number.
+
+1.13 What do you call a tiny “switch” that can be set to either on or off?
+
+Sol: In respect to computers a 'bit' can be said to represent a tiny switch that can be set to either on or off.
+
+1.14 In what numbering system are all numeric values written as sequences of 0s and 1s?
+
+Sol: In the binary numbering system.
+
+1.15 What is the purpose of ASCII?
+
+Sol: Since any piece of data stored in computers is in the form of binary digits, ASCII (American Standard Code
+     for Information Interchange) is a coding system used to represent letters, puntuation marks and other characters.
+
+1.16 What encoding scheme is extensive enough to represent the characters of many of
+     the languages in the world?
+    
+Sol: Unicode encoding scheme.
+
+1.17 What do the terms “digital data” and “digital device” mean?
+
+Sol: Digital data is any data that is stored in binary format.
+     Digital device is a device that works with binary data.

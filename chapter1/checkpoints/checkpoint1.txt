@@ -1,0 +1,57 @@
+1.1 What is a program?
+
+Sol: A program is a set of instructions that a computer follows to perform a task.
+     Programs are commonly referred to as software.
+
+1.2 What is hardware?
+
+Sol: The term 'hardware' refers to all the physical devices, or components, of which a computer is made.
+     A computer is not one single device, but a system of devices that all work together.
+
+1.3 List the five major components of a computer system.
+
+Sol: The five major components of a computer system are:
+
+        1) The central processing unit (CPU)
+        2) Main memory 
+        3) Secondary storage devices
+        4) Input devices
+        5) Ouput devices
+
+1.4 What part of the computer actually runs programs?
+
+Sol: The central processing unit (CPU) is the part that actually runs programs.
+
+1.5 What part of the computer serves as a work area to store a program and its data
+    while the program is running?
+
+Sol: While the program is being executed it is stored in the main memory, any data that the program
+     is working on is also stored in the main memory.
+
+1.6 What part of the computer holds data for long periods of time, even when there is
+    no power to the computer?
+
+Sol: Secondary storage devices.
+
+1.7 What part of the computer collects data from people and from other devices?
+
+Sol: Input devices.
+
+1.8 What part of the computer formats and presents data for people or other devices?
+
+Sol: Output devices.
+
+1.9 What fundamental set of programs control the internal operations of the
+    computer’s hardware?
+
+Sol: Operating Systems.
+
+1.10 What do you call a program that performs a specialized task, such as a virus
+     scanner, a file compression program, or a data backup program?
+
+Sol: Utility Programs.
+
+1.11 Word processing programs, spreadsheet programs, email programs, web browsers,
+     and game programs belong to what category of software?
+    
+Sol: Application Software.
