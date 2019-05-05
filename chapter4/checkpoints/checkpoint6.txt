@@ -1,0 +1,36 @@
+4.20 What does the phrase “garbage in, garbage out” mean?
+
+Sol: “garbage in, garbage out” refers to the fact that the computer cannot tell the difference 
+     between good data and bad data.
+     If the user provides bad data as input to a program, the program will process the bad data
+     and, as a result, will produce bad data as output.
+
+4.21 Give a general description of the input validation process.
+
+Sol: Input validation is the process of inspecting data that has been input to a program, to 
+     make sure it is valid before it is used in computation.
+
+     If the input is invalid or bad data, the program should discard it and prompt the user to
+     enter the correct data.
+
+4.22 Describe the steps that are generally taken when an input validation loop is used
+     to validate data.
+
+Sol: The steps that are generally taken during input validation are:
+        Get the input
+        Check if the input is bad?
+            if the input is bad then display an error.
+            Get the input again.
+        If the input is good then we proceed in processing the input further.
+
+4.23 What is a priming read? What is its purpose?
+
+Sol:  priming read is getting the first input value from the user, the purpose of this is to set 
+      first condition for the while loop. 
+
+      If the input is bad then the loop will perform subsequent input operations.
+
+4.24 If the input that is read by the priming read is valid, how many times will the
+     input validation loop iterate?
+
+Sol: None, it will not iterate even once.

@@ -1,0 +1,12 @@
+4.1 What is a repetition structure?
+
+Sol: A repetition structure causes a statement or set of statements to execute repeatedly.
+
+4.2 What is a condition-controlled loop?
+
+Sol: A condition-controlled loop uses a true/false condition to contol the number of times 
+     that it repeats.
+
+4.3 What is a count-controlled loop?
+
+Sol: A count-controlled loop repeats a specified number of times.

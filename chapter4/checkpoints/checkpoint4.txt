@@ -1,0 +1,38 @@
+4.13 What is an accumulator?
+
+Sol: The variable used to keep the running total is called an accumulator.
+
+4.14 Should an accumulator be initialized to any specific value? Why or why not?
+
+Sol: The accumulator should be initialized to its inital value (usually zero).
+     Since an unintialized accumulator will give an error in python and in other
+     languages it may contain some garbage value.
+
+4.15 What will the following code display?
+        total = 0
+        for count in range(1, 6):
+            total = total + count
+        print(total)
+
+Sol: 15
+
+4.16 What will the following code display?
+        number 1 = 10
+        number 2 = 5
+        number 1 = number 1 + number 2
+        print(number1)
+        print(number2)
+
+Sol: 15
+     5
+     
+4.17 Rewrite the following statements using augmented assignment operators:
+        a) quantity = quantity + 1
+        b) days_left = days_left − 5
+        c) price = price * 10
+        d) price = price / 2
+
+Sol:    a) quantity += 1
+        b) days_left -= 5
+        c) price *= 10
+        d) price /= 2        

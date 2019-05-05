@@ -1,0 +1,48 @@
+4.8 Rewrite the following code so it calls the range function instead of using the list
+[0, 1, 2, 3, 4, 5] :
+    for x in [0, 1, 2, 3, 4, 5]:
+        print('I love to program!')
+
+Sol: for x in range(6):
+        print('I love to program!')
+
+4.9 What will the following code display?
+    for number in range(6):
+        print(number)
+
+Sol:    0
+        1
+        2
+        3
+        4
+        5
+
+4.10 What will the following code display?
+    for number in range(2, 6):
+        print(number)
+
+Sol:    2
+        3
+        4
+        5
+
+4.11  What will the following code display?
+        for number in range(0, 501, 100):
+            print(number)
+
+Sol:    0
+        100
+        200
+        300
+        400
+        500
+
+4.12 What will the following code display?
+        for number in range(10, 5, −1):
+            print(number)
+
+Sol:    10
+        9
+        8
+        7
+        6

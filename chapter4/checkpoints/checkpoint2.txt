@@ -1,0 +1,19 @@
+4.4 What is a loop iteration?
+
+Sol: Each execution of the body of the loop is an iteration.
+
+4.5 Does the while loop test its condition before or after it performs an iteration?
+
+Sol: The while loop test its condition before it performs an iteration.
+
+4.6 How many times will 'Hello World' be printed in the following program?
+		 count = 10
+		 while count < 1:
+		    print('Hello World')
+        
+Sol: The loop does not execute, since the loop condition is not satisfied during the initial 
+     (or first) while loop test.
+
+4.7 What is an infinite loop?
+
+Sol: An infinite loop, is a loop that does not terminate (since it repeition condition is always satisfied).
