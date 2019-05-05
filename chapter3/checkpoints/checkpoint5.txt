@@ -1,0 +1,52 @@
+3.14 What is a compound Boolean expression?
+
+Sol: A compound boolean expression is a boolean expression that is made up of multiple simple boolean
+     expression that is connected using logical operators.
+
+3.15 The following truth table shows various combinations of the values true and false
+     connected by a logical operator. Complete the table by circling T or F to indicate
+     whether the result of such a combination is true or false.
+
+        Logical Expression
+        Result              (circle T or F)         Answers
+        True and False          T   F                False 
+        True and True           T   F                True
+        False and True          T   F                False
+        False and False         T   F                False
+        True or False           T   F                True
+        True or True            T   F                True
+        False or True           T   F                True
+        False or False          T   F                False
+        not True                T   F                False
+        not False               T   F                True
+
+3.16 Assume the variables a = 2, b = 4, and c = 6. Circle T or F for each of the
+     following conditions to indicate whether its value is true or false.
+
+    a == 4 or b > 2             True
+    6 <= c and a > 3            False
+    1 != b and c != 3           True
+    a >= −1 or a <= b           True
+    not (a > 2)                 True
+
+3.17 Explain how short-circuit evaluation works with the and and or operators.
+
+Sol: Short - circuit evaluation incase of and is that if the left hand side condition is false
+     then we know the entire 'and' statement evaluates to false, so python skips the evaluation of
+     the second condition.
+
+     Incase of or operator if the left hand side boolean expression is True, then we know that 
+     the entire 'or' statement evaluates to True, so python skips the evaluation of the second 
+     condition.
+
+3.18 Write an if statement that displays the message “The number is valid” if the
+     value referenced by speed is within the range 0 through 200.
+
+Sol: if speed >= 0 and speed <= 200:
+            print("The number is valid")
+
+3.19 Write an if statement that displays the message “The number is not valid” if the
+     value referenced by speed is outside the range 0 through 200.
+
+Sol: if speed < 0 or speed > 200:
+            print("The number is not valid")

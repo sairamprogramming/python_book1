@@ -1,0 +1,9 @@
+3.20 What values can you assign to a bool variable?
+
+Sol: A bool variable can hold only two values that is True / False.
+
+3.21 What is a flag variable?
+
+Sol: A flag is a variable that signals when some condition exists in the program.
+     When the flag variable is set to False, it indicates the condition does not exist.
+     When the flag variable is set to True, it means the condition does exist.

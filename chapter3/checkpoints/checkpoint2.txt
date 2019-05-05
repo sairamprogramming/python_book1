@@ -1,0 +1,14 @@
+3.8 How does a dual alternative decision structure work?
+
+Sol: The dual alternative decision structure has two possible path of execution, one path is taken 
+     if the condition is True and the other path is taken if the condition is False.
+
+3.9 What statement do you use in Python to write a dual alternative decision structure?
+
+Sol: In python the dual alternative decision structure is implemented using the if - else statement.
+
+3.10 When you write an if-else statement, under what circumstances do the
+     statements that appear after the else clause execute?
+
+Sol: The statements that appear after the else clause execute only when the condition is evaluated to
+     False.

@@ -1,0 +1,37 @@
+3.1 What is a control structure?
+
+Sol: A control structure is a logical design that controls the order in which a set of statements execute.
+
+3.2 What is a decision structure?
+
+Sol: Decision structure are a set of statements that only execute under certain conditions.
+
+3.3 What is a single alternative decision structure?
+
+Sol: A single alternative decision structure is a decision structure that only provide a single alternative
+     path of execution.
+
+3.4 What is a Boolean expression?
+
+Sol: A boolean expression is any expression that evalutes to a boolean value.
+
+3.5 What types of relationships between values can you test with relational operators?
+
+Sol: The type of relationships that we can test with relational operators are:
+        greater than    (>)
+        less than   (<)
+        greater than or equal to    (>=)
+        less than or equal to   (<=)
+        equal to    (==)
+        not equal to    (!=)
+
+3.6 Write an if statement that assigns 0 to x if y is equal to 20.
+
+Sol: if y == 20:
+        x = 0
+
+3.7 Write an if statement that assigns 0.2 to commissionRate if sales is greater
+    than or equal to 10000.
+
+Sol: if sales >= 10000:
+        commissionRate = 0.2
