@@ -1,0 +1,100 @@
+1. A __________ structure can execute a set of statements only under certain
+   circumstances.
+    a. sequence
+    b. circumstantial
+    c. decision
+    d. Boolean
+
+Sol: (c) decision
+
+2. A __________ structure provides one alternative path of execution.
+    a. sequence
+    b. single alternative decision
+    c. one path alternative
+    d. single execution decision
+
+Sol: (b) single alternative decision
+
+3. A(n) __________ expression has a value of either True or False.
+    a. binary
+    b. decision
+    c. unconditional
+    d. Boolean
+
+Sol: (b) Boolean
+
+4. The symbols > , < , and == are all __________ operators.
+    a. relational
+    b. logical
+    c. conditional
+    d. ternary
+
+Sol: (a) relational
+
+5. A(n) _________ structure tests a condition and then takes one path if the condition is
+   true, or another path if the condition is false.
+    a. if statement
+    b. single alternative decision
+    c. dual alternative decision
+    d. sequence
+
+Sol: (c) dual alternative decision
+
+6. You use a(n) __________ statement to write a single alternative decision structure.
+    a. test-jump
+    b. if
+    c. if-else
+    d. if-call
+
+Sol: (b) if
+
+7. You use a(n) __________ statement to write a dual alternative decision structure.
+    a. test-jump
+    b. if
+    c. if-else
+    d. if-call
+
+Sol: if - else
+
+8. and , or , and not are __________ operators.
+    a. relational
+    b. logical
+    c. conditional
+    d. ternary
+
+Sol: (b) logical
+
+9. A compound Boolean expression created with the __________ operator is true only if
+   both of its subexpressions are true.
+    a. and
+    b. or
+    c. not
+    d. both
+
+Sol: (a) and
+
+10. A compound Boolean expression created with the _________ operator is true if either
+    of its subexpressions is true.
+    a. and
+    b. or
+    c. not
+    d. either
+
+Sol: (b) or
+
+11. The ___________ operator takes a Boolean expression as its operand and reverses its
+    logical value.
+    a. and
+    b. or
+    c. not
+    d. either
+
+Sol: (c) not
+12. A ___________ is a Boolean variable that signals when some condition exists in the
+    program.
+    a. flag
+    b. signal
+    c. sentinel
+    d. siren
+
+Sol: (a) flag

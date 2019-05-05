@@ -1,0 +1,35 @@
+1. Explain what is meant by the term “conditionally executed.”
+
+Sol: When we say "conditionally executed" it means we use a decision structure to check a 
+     condition and then decide if we exectue some block of code depending on the evaluation 
+     of the condition.
+
+2. Explain how a single alternative decision structure and a dual alternative decision
+   structure differ.
+
+Sol: A single alternative decision structure has only one alternative path, that is taken if the 
+     condition is True. If the condition is False then the program execution skips the path and
+     starts evaluating the following statements of the program.
+
+     A dual alternative decision structure has two alternative path, incase the condition is 
+     True then one path is taken, if the condition is False then the other path is taken. Then
+     the program execution moves to the following statements.
+
+3. Briefly describe how the and operator works.
+
+Sol: The and operator statement evaluates to True only when both it's operands are True.
+
+4. Briefly describe how the or operator works.
+
+Sol: The or operator statement evaluates to True only when either of it's operands are True.
+
+5. When determining whether a number is outside a range, which logical operator is it
+   best to use?
+
+Sol: The or operator is simpler to be used when we have to determine if a number is outside a range.
+
+6. What is a flag and how does it work?
+
+Sol: A flag is a variable that signals when some condition exists in the program.
+     When the flag variable is set to False, it indicates the condition does not exist.
+     When the flag variable is set to True, it indicates the condition does exist.

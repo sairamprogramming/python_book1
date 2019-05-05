@@ -1,0 +1,22 @@
+1. You can write any program using only sequence structures.
+
+Sol: False
+
+2. A program can be made of only one type of control structure. You cannot combine
+   structures.
+
+Sol: False
+
+3. A single alternative decision structure tests a condition and then takes one path if the
+   condition is true, or another path if the condition is false.
+
+Sol: False
+
+4. A decision structure can be nested inside another decision structure.
+
+Sol: True
+
+5. A compound Boolean expression created with the and operator is true only when both
+   subexpressions are true.
+
+Sol: True
