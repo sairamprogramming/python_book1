@@ -1,0 +1,19 @@
+1. Programmers must be careful not to make syntax errors when writing pseudocode programs.
+
+Sol: False
+
+2. In a math expression, multiplication and division take place before addition and subtraction.
+
+Sol: True
+
+3. Variable names can have spaces in them.
+
+Sol: False
+
+4. In Python, the first character of a variable name cannot be a number.
+
+Sol: True
+
+5. If you print a variable that has not been assigned a value, the number 0 will be ­displayed.
+
+Sol: False

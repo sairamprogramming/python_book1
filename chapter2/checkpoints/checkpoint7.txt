@@ -1,0 +1,14 @@
+2.28 What are three advantages of using named constants?
+
+Sol: Named constants are useful in making the program easier to read by, using appropriate name it can make the 
+     the application of the constant clear to the person who is reading the program.
+
+     Named constant allow us to update a numeric value that is used at multiple places at only one place, therefore 
+     making the program easier to edit or update.
+
+     Named constant remove the risk of entering the wrong numeric literal by user. If the constant name is entered
+     wrong then the python interpreter will throw an exception.
+
+2.29 Write a Python statement that defines a named constant for a 10 percent discount.
+
+Sol: DISCOUT = 0.1

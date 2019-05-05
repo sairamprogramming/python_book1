@@ -1,0 +1,57 @@
+1. What does a professional programmer usually do first to gain an understanding of a problem?
+
+Sol: Programmers usually use tools such as pseudocode and flowchart to model the problem.
+
+2. How does pseudocode differ from actual code written in a programming language?
+
+Sol: In pseudocode we write the steps to sovle the problem informally and without regard to 
+     syntax. Pseudocode is just used to give an idea about how to implement a problem in code.
+
+3. Computer programs typically perform what three steps?
+
+Sol: The three steps that a computer program performs are:
+        1) Input is received by the program.
+        2) Some process is performed on the input.
+        3) Output is produced.
+
+4. What rules and considerations should influence the names given to variables in a program?
+
+Sol: Rules of naming a variable in python are as follow:
+        1) A variable name can only contain alphabets, digits and the special character '_'.
+        2) A variable name can only start with an alphabet or '_'.
+        3) A variable name cannot be any python key word. 
+        4) In python variable names are case senstive.
+
+5. What is the difference between floating-point division and integer division?
+
+Sol: In floating point division the result is a floating point number.
+
+     In integer division the result is an integer. If the resultant is positive than
+     the decimal part is truncated, if the resultant is negative then the number is 
+     rounded away form zero.
+
+6. What is a magic number? Why are magic numbers problematic?
+
+Sol: A magic number is an unexplained value that appears in a program's code.
+
+     1) It can be difficult for someone reading the code to find the purpose of the 
+        magic number.
+     2) If the magic number is used at multiple locations in the program, it can take 
+        effort to change the number in each location, if the need arises.
+     3) In using magic numbers you take the risk of making unintended typographical mistakes
+        each time you type the magic number in the program.
+
+7. Assume a program uses the named constant PI to represent the value 3.14159. The
+   program uses the named constant in several statements. What is the advantage of using
+   the named constant instead of the actual value 3.14159 in each statement?
+
+Sol: The advantage of using named constant:
+
+        They make the program more sel explanatory.
+        
+        It makes it easier to change the value of the named constant,
+        without editing in multiple locations.
+
+        Incase of any typographical mistakes in writing the named constant
+        the python interpreter will throw an exception.
+

@@ -1,0 +1,26 @@
+2.22 How do you suppress the print function’s ending newline?
+
+Sol: You can supress the newline of print() function by using the keyword argument 'end'.
+     Example --> print('Suppressing newline in print', end='')
+
+2.23 How can you change the character that is automatically displayed between multiple items 
+     that are passed to the print function?
+
+Sol: You use the keyword argument 'sep' in the print function to seprate multiple items.
+     Example --> print('I','am','seprated','by','a','semicolon', sep=';')
+
+2.24 What is the '\n' escape character?
+
+Sol: '\n' represents a newline.
+
+2.25 What does the + operator do when it is used with two strings?
+
+Sol: When the two operands are strings the + operator performs a string concatenation.
+
+2.26 What does the statement print(format(65.4321, '.2f')) display?
+
+Sol: Output --> 65.43
+
+2.27 What does the statement print(format(987654.129, ',.2f')) display?
+
+Sol: Output --> 987,654.13
