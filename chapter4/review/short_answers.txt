@@ -1,0 +1,43 @@
+1. What is a condition-controlled loop?
+
+Sol: A condition-controlled loop uses True/False condition to control the number of times 
+     that it repeats.
+
+2. What is a count-controlled loop?
+
+Sol: A count-controlled loop repeats a specific number of times.
+
+3. What is an infinite loop? Write the code for an infinite loop.
+
+Sol: An infinite loop is a loop that keeps on repeating without terminating.
+
+     Example: while True:
+                    print('I am an infinte loop!')
+
+4. How are an accumulator variable and a loop used to calculate a running total?
+
+Sol: An accumulator variable keeps track of the running total. The loop goes through all the 
+     values that have to be summed and keeps adding it to the accumulator.
+
+5. How many iterations would occur in total if a loop that repeats 5 times is nested
+   within a loop that repeats 4 times?
+
+Sol: 5 * 4 = 20 times.
+
+6. Why must the value chosen for use as a sentinel be carefully selected?
+
+Sol: Since it must not be similiar to a value that we may input for it to be processed by the program.
+
+7. What does the phrase “garbage in, garbage out” mean?
+
+Sol: “garbage in, garbage out” basically means that if a bad input is given to a computer program it will
+     give back a bad output.
+
+8. Give a general description of the input validation process.
+
+Sol: General description of the input validation process:
+        First we get the priming read, that is the initial input from the user.
+        We then test this input.
+            If the input is bad then we display it and ask the user to input again.
+            We repeat this process until we get a good input.
+        If the input is good then we proceed with processing this input further in the program.

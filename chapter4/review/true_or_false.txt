@@ -1,0 +1,29 @@
+1. A condition-controlled loop always repeats a specific number of times.
+
+Sol: False
+
+2. The while loop is a pretest loop.
+
+Sol: True
+
+3. The following statement subtracts 1 from x: x = x − 1
+
+Sol: True
+
+4. It is not necessary to initialize accumulator variables.
+
+Sol: False
+
+5. In a nested loop, the inner loop goes through all of its iterations for every single iteration of the outer loop.
+
+Sol: True
+
+6. To calculate the total number of iterations of a nested loop, add the number of iterations of all the loops.
+
+Sol: False
+
+7. The process of input validation works as follows: when the user of a program enters invalid data, 
+   the program should ask the user “Are you sure you meant to enter that?”
+   If the user answers “yes,” the program should accept the data.
+
+Sol: False
