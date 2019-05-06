@@ -1,0 +1,40 @@
+1. Describe the three steps that must be taken when a file is used by a program.
+
+Sol: The three steps that must be taken when a file is used by a program:
+    
+    1) Open the file: Opening a file creates a connection between the file and the program.
+
+    2) Process the file: In this step, data is either written to the file (if file is in write 
+        or append mode) or data is read from the file (if file is in read mode).
+
+    3) Close the file: When the program is finished using the file, the file must be closed.
+       Closing a file disconnects the file from the program.
+
+2. Why should a program close a file when it’s finished using it?
+
+Sol: Closing the file disconnects the file from the program. In some systems failure to close
+     an output file can cause a loss of data.
+
+     This happens because the data that is first written to a file is first written to a buffer,
+     which is a small "holding screen" in memory. 
+     When the buffer is full, the system writes the buffer's contents to the file.
+     This technique increases the system's performance, because writing data to memory is faster
+     than writing to the disk.
+     The process of closing the an output file forces any unsaved data that remains in the buffer
+     to be written to the file.
+
+3. What is a file’s read position? Where is the read position when a file is first opened
+   for reading?
+
+Sol: A file's read position is a special value that is internally maintained for that file.
+     A file's read position marks the location of the next item that will be read from the file.
+     Initially the read position us set to the beginning of the file.
+
+4. Which mode should a file be opened in to allow data to be written to it, erasing any 
+   previous data?
+
+Sol: In the write mode ('w').
+
+5. If a file does not exist and a program attempts to open it in append mode, what happens?
+
+Sol: If a file does not exist and it is opened in append mode then the file will be created.

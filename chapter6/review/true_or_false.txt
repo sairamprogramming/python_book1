@@ -1,0 +1,42 @@
+1. When working with a sequential access file, you can jump directly to any piece of data
+   in the file without reading the data that comes before it.
+
+Sol: False
+
+2. When you open a file that file already exists on the disk using the 'w' mode, the con-
+   tents of the existing file will be erased.
+
+Sol: True
+
+3. The process of opening a file is only necessary with input files. Output files are auto-
+   matically opened when data is written to them.
+
+Sol: False
+
+4. When an input file is opened, its read position is initially set to the first item in the file.
+
+Sol: True
+
+5. When a file that already exists is opened in append mode, the file’s existing contents
+   are erased.
+
+Sol: False
+
+6. If you do not handle an exception, it is ignored by the Python interpreter, and the
+   program continues to execute.
+
+Sol: False
+
+7. You can have more than one except clause in a try/except statement.
+
+Sol: True
+
+8. The else suite in a try/except statement executes only if a statement in the try suite
+   raises an exception.
+
+Sol: False
+
+9. The finally suite in a try/except statement executes only if no exceptions are raised
+   by statements in the try suite.
+
+Sol: False

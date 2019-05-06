@@ -1,0 +1,123 @@
+1. A file that data is written to is known as a(n) _______________.
+    a. input file
+    b. output file
+    c. sequential access file
+    d. binary file
+
+Sol: (b) output file
+
+2. A file that data is read from is known as a(n) _______________.
+    a. input file
+    b. output file
+    c. sequential access file
+    d. binary file 
+
+Sol: (a) input file
+
+3. Before a file can be used by a program, it must be ______________.
+    a. formatted
+    b. encrypted
+    c. closed
+    d. opened
+
+Sol: (d) opened
+
+4. When a program is finished using a file, it should do this.
+    a. erase the file
+    b. open the file
+    c. close the file
+    d. encrypt the file
+
+Sol: (c) close the file
+
+5. The contents of this type of file can be viewed in an editor such as Notepad.
+    a. text file
+    b. binary file
+    c. English file
+    d. human-readable file
+
+Sol: (a) text file
+
+6. This type of file contains data that has not been converted to text.
+    a. text file
+    b. binary file
+    c. Unicode file
+    d. symbolic file
+
+Sol: (b) binary file
+
+7. When working with this type of file, you access its data from the beginning of the file
+   to the end of the file.
+    a. ordered access
+    b. binary access
+    c. direct access
+    d. sequential access
+
+Sol: (d) sequential access
+
+8. When working with this type of file, you can jump directly to any piece of data in the
+   file without reading the data that comes before it.
+    a. ordered access
+    b. binary access
+    c. direct access
+    d. sequential access
+
+Sol: (c) direct access
+
+9. This is a small “holding section” in memory that many systems write data to before
+   writing the data to a file.
+    a. buffer
+    b. variable
+    c. virtual file
+    d. temporary file
+
+Sol: (a) buffer
+
+10. This marks the location of the next item that will be read from a file.
+    a. input position
+    b. delimiter
+    c. pointer
+    d. read position
+
+Sol: (d) read position
+
+11. When a file is opened in this mode, data will be written at the end of the file’s existing
+   contents.
+    a. output mode
+    b. append mode
+    c. backup mode
+    d. read-only mode
+
+Sol: (b) append mode
+
+12. This is a single piece of data within a record.
+    a. field
+    b. variable
+    c. delimiter
+    d. subrecord
+
+Sol: (a) field.
+
+13. When an exception is generated, it is said to have been __________.
+    a. built
+    b. raised
+    c. caught
+    d. killed
+
+Sol: (b) raised
+
+14. This is a section of code that gracefully responds to exceptions.
+    a. exception generator
+    b. exception manipulator
+    c. exception handler
+    d. exception monitor
+
+Sol: (c) exception handler
+
+15. You write this statement to respond to exceptions.
+    a. run/handle
+    b. try/except
+    c. try/handle
+    d. attempt/except
+
+Sol: (b) try/except
