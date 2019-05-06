@@ -1,0 +1,15 @@
+5.10 What is a local variable? How is access to a local variable restricted?
+
+Sol: A local variable is a variable that is created inside a function and cannot be accessed
+     by statements outside the function.
+     Access to local variable is restricted since a local variable uses a local scope and 
+     therefore only visible to statements within the function body.
+
+5.11 What is a variable’s scope?
+
+Sol: A variable’s scope is the part of a program in which the variable may be accessed.
+
+5.12 Is it permissible for a local variable in one function to have the same name as a
+     local variable in a different function?
+
+Sol: Yes. Since each function has its own local scope.

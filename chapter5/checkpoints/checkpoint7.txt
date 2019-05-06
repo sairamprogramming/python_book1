@@ -1,0 +1,21 @@
+5.31 What is the purpose of the return statement in a function?
+
+Sol: The return function is used to return a value from a function.
+     It can also be used to terminate a function call in case the need arises.
+
+5.32 Look at the following function definition:
+        def do_something(number):
+            return number * 2
+        
+	a. What is the name of the function?
+	b. What does the function do?
+	c. Given the function definition, what will the following statement display?
+        print(do_something(10))
+
+Sol: (a) the name of the function is do_something.
+     (b) the function returns the double of its argument.
+     (c) 20 
+    
+5.33 What is a Boolean function?
+
+Sol: Boolean functions are functions that return True or False from a function.

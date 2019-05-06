@@ -1,0 +1,20 @@
+5.18 What is the scope of a global variable?
+
+Sol: Scope of a global variable is the entire program. All functions in a program can access
+     a global variable.
+
+5.19 Give one good reason that you should not use global variables in a program.
+
+Sol: Using global variables makes debugging difficult since any statement in the program can change
+     a global variable. Tracking these changes may be difficult for large programs.
+
+     Function that use global variables are usually dependent on those variables.
+
+     Global variable make the program hard to understand, since they can be modified by any part of
+     the program.
+
+5.20 What is a global constant? Is it permissible to use global constants in a program?
+
+Sol: A global constant is a global name that references a value that cannot be changed.
+
+     Yes it permissible to use global constants as they make the program easier to understand.

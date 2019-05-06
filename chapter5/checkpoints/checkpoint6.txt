@@ -1,0 +1,55 @@
+5.21 How does a value-returning function differ from the void functions?
+
+Sol: A value-returning function returns a value back to the part of the 
+     program that calls it.
+     
+     A void function usually process the function without returning any value.
+     Although technically it returns None of the None data type
+
+5.22 What is a library function?
+
+Sol: Functions defined in the standard library are called library functions.
+
+5.23 Why are library functions like “black boxes”?
+
+Sol: A library function can be viewd as "black boxes" as we only need to know what the
+     function processes and the required input and output of the function. We do not need
+     to worry about the implementation of the function.
+
+5.24 What does the following statement do?
+        x = random.randint(1, 100)
+
+Sol: Assigns to variable x a random integer in the inclusive range of 1 to 100.
+
+5.25 What does the following statement do?
+        print(random.randint(1, 20))
+
+Sol: Prints a random integer in the inclusive range of 1 to 20.
+
+5.26 What does the following statement do?
+        print(random.randrange(10, 20))
+
+Sol: Prints a random integer in the range of 10 included and 20 excluded.
+
+5.27 What does the following statement do?
+        print(random.random())
+
+Sol: Prints a floating point value in the exclusive range of 0 and 1.
+
+5.28 What does the following statement do?
+        print(random.uniform(0.1, 0.5))
+
+Sol: Prints a floating point value in the range of 0.1 and 0.5
+
+5.29 When the random module is imported, what does it use as a seed value for
+    random number generation?
+
+Sol: Random numbers in python are what are known as psuedo random numbers, that is they
+     depend on some starting value to generate random numbers. This starting value is 
+     known as the seed of the random number generation.
+
+5.30 What happens if the same seed value is always used for generating random
+     numbers?
+
+Sol: It will give out the same sequence of random numbers if we use the same seed value
+     in generating random numbers.     

@@ -1,0 +1,31 @@
+5.13 What are the pieces of data that are passed into a function called?
+
+Sol: Arguments.
+
+5.14 What are the variables that receive pieces of data in a function called?
+
+Sol: Parameters.
+
+5.15 What is a parameter variable’s scope?
+
+Sol: A parameter variable's scope is limited to the function it is associated with.
+
+5.16 When a parameter is changed, does this affect the argument that was passed into
+     the parameter?
+
+Sol: It depends on the kind of data type that was sent to the parameter.
+
+     If the argument is of mutable data type such as list or dictionries then changes
+     to the parameter affect the original variable that was passesd to the function.
+     (Pass by reference)
+
+     If the argument is of immutable data type then the changes to the parameter do not
+     affect the original variable that was passed to the function.
+     (Pass by value)
+
+5.17 The following statements call a function named show_data . Which of the
+     statements passes arguments by position, and which passes keyword arguments?
+		 a. show_data(name = 'Kathryn', age = 25)
+		 b. show_data('Kathryn', 25)
+
+Sol: (a) passes arguments using keyword arguments and (b) passes arguments by position.

@@ -1,0 +1,28 @@
+5.1 What is a function?
+
+Sol: A function is a group of statements that exist within a program for the purpose of performing
+     a specifc task.
+
+5.2 What is meant by the phrase “divide and conquer”?
+
+Sol: “divide and conquer” means to divide a large task into several smaller tasks that are easily 
+     performed.
+
+5.3 How do functions help you reuse code in a program?
+
+Sol: Using functions help in reducing the duplicating of code making the program easier to manage
+     and easier to read. 
+     This also helps in updating the code at a single place within the function body to affect the 
+     entire program.
+     
+5.4 How can functions make the development of multiple programs faster?
+
+Sol: We only need to write common tasks that are used in program as a single function. If we need to
+     use this task all we need to do is call the function, we therefore elminate the need to write 
+     code multiple times and therefore make development faster.
+
+5.5 How can functions make it easier for programs to be developed by teams of
+    programmers?
+
+Sol: When a program is divided into functions, then different programmers can be assigned the task of
+     implementing different fucntions therefore making teamwork easier.

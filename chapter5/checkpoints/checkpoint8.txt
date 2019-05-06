@@ -1,0 +1,13 @@
+5.34 What import statement do you need to write in a program that uses the math module?
+
+Sol: import math
+
+5.35 Write a statement that uses a math module function to get the square root of 100
+     and assigns it to a variable.
+
+Sol: sqrt_100 = math.sqrt(100)
+
+5.36 Write a statement that uses a math module function to convert 45 degrees to
+     radians and assigns the value to a variable.
+
+Sol: radians45 = math.radians(45)

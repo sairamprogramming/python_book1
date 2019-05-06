@@ -1,0 +1,21 @@
+5.6 A function definition has what two parts?
+
+Sol: The two parts of defining a function are:
+        1) Writing the function header. (Giving a name to the function and what arguments are expected).
+        2) Implementing the function body (This defines how the function process and returns data if
+            necessary).
+
+5.7 What does the phrase “calling a function” mean?
+
+Sol: “calling a function” means we are executing the function that we have defined previously.
+
+5.8 When a function is executing, what happens when the end of the function’s block is
+    reached?
+
+Sol: When the end of the function body is reached, the interpreter jumps back to the part of the program
+     that called the function. and the program resumes execution at that point.
+
+5.9 Why must you indent the statements in a block?
+
+Sol: In python a block is defined as any statements that are indented, therefore to define the function
+     body we need to indent the statements that belong to the function body.
