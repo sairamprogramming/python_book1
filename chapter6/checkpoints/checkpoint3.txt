@@ -1,0 +1,31 @@
+6.16 What is a record? What is a field?
+
+Sol: A record is a complete set of data about an item, and a field is an individual piece of data within
+     a record.
+
+6.17 Describe the way that you use a temporary file in a program that modifies a
+     record in a sequential access file.
+
+Sol: The way to modify an sequential access file is
+        By first creating a temporary file in write mode. (Named temp.txt) 
+        Open the file to be modified in read mode. (Named modified.txt)
+        You then write all the data till the line you want to be modified from modified.txt to temp.txt
+        Now write the modified line to temp.txt
+        Now again write all the data after the modifed line from modifed.txt to temp.txt
+        Delete the modifed.txt file from the system.
+        Rename the temp.txt to modifed.txt file.    
+
+        We have now modified the file.
+
+6.18 Describe the way that you use a temporary file in a program that deletes a record
+     from a sequential file?
+
+Sol:    The way to remove a record from a file is:
+            Create a temporary file in write mode. (temp.txt)
+            Open the file from which record must be deleted. (delete.txt)
+            Write all the data from delete.txt to temp.txt until we reach the record to be deleted.
+            Skip this record and write all other records to temp.txt from delete.txt.
+            Now delete the file delete.txt from the system.
+            Now rename the file temp.txt to delete.txt
+
+        We have now deleted a record from the file.

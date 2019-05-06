@@ -1,0 +1,19 @@
+6.19 Briefly describe what an exception is.
+
+Sol: An exception is an error that occurs while a program is running, causing the program
+     to abruptly halt.
+
+6.20 If an exception is raised and the program does not handle it with a try/except
+     statement, what happens?
+
+Sol: If an exception is not handled then the program will halt and send a traceback of the exception
+     that has occured.
+
+6.21 What type of exception does a program raise when it tries to open a nonexistent file?
+
+Sol: IOError (or FileNotFoundError).
+
+6.22 What type of exception does a program raise when it uses the float function to
+     convert a non-numeric string to a number?
+
+Sol: ValueError.
