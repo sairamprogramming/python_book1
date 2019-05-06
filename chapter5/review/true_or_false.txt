@@ -1,0 +1,64 @@
+1. The phrase “divide and conquer” means that all of the programmers on a team should
+   be divided and work in isolation.
+
+Sol: False
+
+2. Functions make it easier for programmers to work in teams.
+
+Sol: True
+
+3. Function names should be as short as possible.
+
+Sol: False
+
+4. Calling a function and defining a function mean the same thing.
+
+Sol: False
+
+5. A flowchart shows the hierarchical relationships between functions in a program.
+
+Sol: False
+
+6. A hierarchy chart does not show the steps that are taken inside a function.
+
+Sol: True
+
+7. A statement in one function can access a local variable in another function.
+
+Sol: False
+
+8. In Python, you cannot write functions that accept multiple arguments.
+
+Sol: False
+
+9. In Python, you can specify which parameter an argument should be passed into a func-
+   tion call.
+
+Sol: True
+
+10. You cannot have both keyword arguments and non-keyword arguments in a function call.
+
+Sol: False
+
+11. Some library functions are built into the Python interpreter.
+
+Sol: ??
+
+12. You do not need to have an import statement in a program to use the functions in the
+    random module.
+
+Sol: False
+
+13. Complex mathematical expressions can sometimes be simplified by breaking out part
+    of the expression and putting it in a function.
+
+Sol: True
+
+14. A function in Python can return more than one value.
+
+Sol: True
+
+15. IPO charts provide only brief descriptions of a function’s input, processing, and output,
+    but do not show the specific steps taken in a function.
+
+Sol: True

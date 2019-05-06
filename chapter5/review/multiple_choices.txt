@@ -1,0 +1,168 @@
+1. A group of statements that exist within a program for the purpose of performing a
+   specific task is a(n) __________.
+    a. block
+    b. parameter
+    c. function
+    d. expression
+
+Sol: (c) function
+
+2. A design technique that helps to reduce the duplication of code within a program and
+   is a benefit of using functions is __________.
+    a. code reuse
+    b. divide and conquer
+    c. debugging
+    d. facilitation of teamwork
+
+Sol: (b) divide and conquer
+
+3. The first line of a function definition is known as the __________.
+    a. body
+    b. introduction
+    c. initialization
+    d. header
+
+Sol: (d) header
+
+4. You __________ a function to execute it.
+    a. define
+    b. call
+    c. import
+    d. export
+
+Sol: (b) call
+
+5. A design technique that programmers use to break down an algorithm into func-
+   tions is known as __________.
+    a. top-down design
+    b. code simplification
+    c. code refactoring
+    d. hierarchical subtasking
+
+Sol: (a) top-down design
+
+6. A __________ is a diagram that gives a visual representation of the relationships
+   between functions in a program.
+    a. flowchart
+    b. function relationship chart
+    c. symbol chart
+    d. hierarchy chart
+
+Sol: (d) hierarchy chart
+
+7. A __________ is a variable that is created inside a function.
+    a. global variable
+    b. local variable
+    c. hidden variable
+    d. none of the above; you cannot create a variable inside a function
+
+Sol: (b) local variable
+
+8. A(n) __________ is the part of a program in which a variable may be accessed.
+    a. declaration space
+    b. area of visibility
+    c. scope
+    d. mode
+
+Sol: (c) scope
+
+9. A(n) __________ is a piece of data that is sent into a function.
+    a. argument
+    b. parameter
+    c. header
+    d. packet
+
+Sol: (a) argument
+
+ 10. A(n) __________ is a special variable that receives a piece of data when a function is
+     called.
+    a. argument
+    b. parameter
+    c. header
+    d. packet
+
+Sol: (b) parameter
+
+11. A variable that is visible to every function in a program file is a __________.
+    a. local variable
+    b. universal variable
+    c. program-wide variable
+    d. global variable
+
+Sol: (d) global variable
+
+12. When possible, you should avoid using __________ variables in a program.
+    a. local
+    b. global
+    c. reference
+    d. parameter
+
+Sol: (b) global
+
+13. This is a prewritten function that is built into a programming language.
+    a. standard function
+    b. library function
+    c. custom function
+    d. cafeteria function
+
+Sol: (b) library function
+
+14. This standard library function returns a random integer within a specified range of
+    values.
+    a. random
+    b. randint
+    c. random_integer
+    d. uniform
+
+Sol: (b) randint
+
+15. This standard library function returns a random floating-point number in the range of
+    0.0 up to 1.0 (but not including 1.0).
+    a. random
+    b. randint
+    c. random_integer
+    d. uniform
+
+Sol: (a) random
+
+16. This standard library function returns a random floating-point number within a speci-
+    fied range of values.
+    a. random
+    b. randint
+    c. random_integer
+    d. uniform
+
+Sol: (d) uniform
+
+17. This statement causes a function to end and sends a value back to the part of the pro-
+    gram that called the function.
+    a. end
+    b. send
+    c. exit
+    d. return
+
+Sol: (d) return
+
+18. This is a design tool that describes the input, processing, and output of a function.
+    a. hierarchy chart
+    b. IPO chart
+    c. datagram chart
+    d. data processing chart
+
+Sol: (b) IPO chart
+
+19. This type of function returns either True or False .
+    a. Binary
+    b. true_false
+    c. Boolean
+    d. logical
+
+Sol: (c) Boolean
+
+20. This is a math module function.
+    a. derivative
+    b. factor
+    c. sqrt
+    d. differentiate
+
+Sol: (c) sqrt
