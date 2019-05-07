@@ -1,0 +1,27 @@
+8.1 Assume the variable name references a string. Write a for loop that prints each
+    character in the string.
+
+Sol: for letter in name:
+        print(letter)
+
+8.2 What is the index of the first character in a string?
+
+Sol: 0
+
+8.3 If a string has 10 characters, what is the index of the last character?
+
+Sol: 9
+
+8.4 What happens if you try to use an invalid index to access a character in a string?
+
+Sol: You get an IndexError exception.
+
+8.5 How do you find the length of a string?
+
+Sol: Using the len() function.
+
+8.6 What is wrong with the following code?
+        animal = 'Tiger'
+        animal[0] = 'L'
+
+Sol: Strings are immutable, so trying change a character results in a TypeError exception.        

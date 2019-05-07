@@ -1,0 +1,23 @@
+8.7 What will the following code display?
+        mystring = 'abcdefg'
+        print(mystring[2:5])
+
+Sol: cde
+
+8.8 What will the following code display?
+        mystring = 'abcdefg'
+        print(mystring[3:])
+
+Sol: defg
+
+8.9 What will the following code display?
+        mystring = 'abcdefg'
+        print(mystring[:3])
+
+Sol: abd
+
+8.10 What will the following code display?
+        mystring = 'abcdefg'
+        print(mystring[:])
+
+Sol: abcdefg

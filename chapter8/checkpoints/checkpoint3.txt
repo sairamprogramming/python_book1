@@ -1,0 +1,66 @@
+8.11 Write code using the in operator that determines whether 'd' is in mystring.
+
+Sol: if 'd' in mystring:
+        # do something
+
+8.12 Assume the variable big references a string. Write a statement that converts the
+     string it references to lowercase and assigns the converted string to the variable
+     little.
+
+Sol: little = big.lower()
+
+8.13 Write an if statement that displays “Digit” if the string referenced by the variable
+     ch contains a numeric digit. Otherwise, it should display “No digit.”
+
+Sol:    flag = True
+        for character in ch:
+            if character.isdigit():
+                flag = False
+        if flag:
+            print("No digit")
+        else:
+            print("Digit")
+
+8.14 What is the output of the following code?
+        ch = 'a'
+        ch2 = ch.upper()
+        print(ch, ch2)
+
+Sol: a A
+
+8.15 Write a loop that asks the user “Do you want to repeat the program or quit?
+    (R/Q)”. The loop should repeat until the user has entered an R or Q (either
+    uppercase or lowercase).
+
+Sol: while True:
+        check = input(“Do you want to repeat the program or quit?(R/Q): ")
+        if check.lower() in "rq":
+            break
+
+8.16 What will the following code display?
+        var = '$'
+        print(var.upper())
+
+Sol: $
+
+8.17 Write a loop that counts the number of uppercase characters that appear in the
+     string referenced by the variable mystring.
+
+Sol:    upper_count = 0
+        for letter in mystring:
+            if letter.isupper():
+                upper_count += 1
+                
+8.18 Assume the following statement appears in a program:
+        days = 'Monday Tuesday Wednesday'
+    Write a statement that splits the string, creating the following list:
+        ['Monday', 'Tuesday', 'Wednesday']
+
+Sol: lst = days.split()
+
+8.19 Assume the following statement appears in a program:
+        values = 'one$two$three$four'
+    Write a statement that splits the string, creating the following list:
+        ['one', 'two', 'three', 'four']
+
+Sol: lst = values.split('$')
