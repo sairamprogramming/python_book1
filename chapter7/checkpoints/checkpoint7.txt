@@ -1,0 +1,36 @@
+7.26 To create a graph with the plot function, what two arguments you must pass?
+
+Sol: You must pass a sequence of x co-ordinates and the respective sequence of y co-ordinates.
+
+7.27 What sort of graph does the plot function produce?
+
+Sol: A line graph
+
+7.28 What functions do you use to add labels to the X and Y axes in a graph?
+
+Sol: Use the xlabel() and ylabel() function are used to add labels to X and Y axis in a graph
+     respectively.
+
+7.29 How do you change the lower and upper limits of the X and Y axes in a graph?
+
+Sol: Using the xlim() and ylim() functions you can change the axis of the X and Y axes in a graph.
+
+7.30 How do you customize the tick marks along the X and Y axes in a graph?
+
+Sol: Using the xticks() and yticks() function you can customize the tick marks in a graph.
+
+7.31 To create a bar chart with the bar function, what two arguments you must pass?
+
+Sol: To create a bar plot you use the bar() function.
+     The arguments of the bar() function are sequence of left_edges and the heights of the bar.
+
+7.32 Assume the following statement calls the bar function to construct a bar chart
+     with four bars. What color will the bars be?
+        plt.bar(left_edges, heights, color=('r', 'b', 'r', 'b'))
+
+Sol: red, blue, red and blue.
+
+7.33 To create a pie chart with the pie function, what argument you must pass?
+
+Sol: You use the pie() function to create a pie chart. The argument used by the pie chart is 
+     list of all values by which the pie chart is divided into.

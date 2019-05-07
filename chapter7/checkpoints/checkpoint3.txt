@@ -1,0 +1,10 @@
+7.14 What will the following code display?
+    names = ['Jim', 'Jill', 'John', 'Jasmine']
+    if 'Jasmine' not in names:
+        print('Cannot find Jasmine.')
+    else:
+        print("Jasmine's family:")
+        print(names)
+
+Sol: Jasmine's family
+     ['Jim', 'Jill', 'John', 'Jasmine']

@@ -1,0 +1,17 @@
+7.19 Look at the following interactive session, in which a two-dimensional list is
+     created. How many rows and how many columns are in the list?
+        numbers = [[1, 2], [10, 20], [100, 200], [1000, 2000]]
+
+Sol: The above list has 4 rows and 2 columns.
+
+7.20 Write a statement that creates a two-dimensional list with three rows and four
+     columns. Each element should be assigned the value 0.
+
+Sol: [[0] * 3] * 3
+
+7.21 Write a set of nested loops that display the contents of the numbers list shown in
+     Checkpoint question 7.19.
+
+Sol:    for row in range(len(numbers)):
+            for column in range(len(row)):
+                print(numbers[row][column])

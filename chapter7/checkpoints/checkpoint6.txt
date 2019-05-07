@@ -1,0 +1,21 @@
+7.22 What is the primary difference between a list and a tuple?
+
+Sol: A list is a mutable data type and a tuple is a immutable data type.
+
+7.23 Give two reasons why tuples exist.
+
+Sol: 1) Processing tuples is faster than processing a list, so tuples are a good choice to process 
+        large amount of data, and that data will not be modified.
+
+     2) Using tuples are safer, since you cannot modify a tuple you can be sure that the tuple is 
+        not accidently modified by any code in your program.
+
+7.24 Assume my_list references a list. Write a statement that converts it to
+     a tuple.
+
+Sol: my_tuple = tuple(my_list)
+
+7.25 Assume my_tuple references a tuple. Write a statement that converts it to
+     a list.
+
+Sol: my_list = list(my_tuple)

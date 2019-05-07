@@ -1,0 +1,33 @@
+7.15 What is the difference between calling a list’s remove method and using the del
+     statement to remove an element?
+
+Sol: Using the lists remove method, we can remove an item by its value.
+     Using the del statement we remove an item by its index.
+
+7.16 How do you find the lowest and highest values in a list?
+
+Sol: Using the min() and max() function respectively
+
+7.17 Assume the following statement appears in a program:
+        names = []
+	 Which of the following statements would you use to add the string ‘Wendy’ to the
+     list at index 0? Why would you select this statement instead of the other?
+        a. names[0] = 'Wendy'
+        b. names.append('Wendy')
+
+Sol: In this case we use (b) names.append('Wendy'), since we have not yet defined the first
+     element and therefore cannot use its index value to modify its value.
+
+7.18 Describe the following list methods:
+        a. index
+        b. insert
+        c. sort
+        d. reverse
+
+Sol:    a) the .index() method returns the index of any argument it is passed, if the 
+           argument is not present then it returns an IndexError.
+        b) the .insert(index, value) inserts the value at the given index.
+        c) the .sort() method sorts the list in ascending order. It should be noted 
+           that this method only works is the list is purely numeric or of string data
+           type. (Modifes the list)
+        d) the .reverse() method reverses any list it is given. (Modifies the list)
