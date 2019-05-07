@@ -1,0 +1,20 @@
+1. Once a string is created, it cannot be changed.
+
+Sol: True
+
+2. You can use the for loop to iterate over the individual characters in a string.
+
+Sol: True
+
+3. The isupper method converts a string to all uppercase characters.
+
+Sol: False
+
+4. The repetition operator ( * ) works with strings as well as with lists.
+
+Sol: True
+
+5. When you call a string’s split method, the method divides the string into two
+   substring.
+
+Sol: False

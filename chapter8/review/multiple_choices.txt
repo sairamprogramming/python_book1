@@ -1,0 +1,84 @@
+1. This is the first index in a string.
+    a. −1
+    b. 1
+    c. 0
+    d. The size of the string minus one
+
+Sol: (c) 0
+
+2. This is the last index in a string.
+    a. 1
+    b. 99
+    c. 0
+    d. The size of the string minus one
+
+Sol: (d) The size of the string minus one
+
+3. This will happen if you try to use an index that is out of range for a string.
+    a. A ValueError exception will occur.
+    b. An IndexError exception will occur.
+    c. The string will be erased and the program will continue to run.
+    d. Nothing—the invalid index will be ignored.
+
+Sol; (b) An IndexError exception will occur.
+
+4. This function returns the length of a string.
+    a. length
+    b. size
+    c. len
+    d. lengthof
+
+Sol: (c) len
+
+5. This string method returns a copy of the string with all leading whitespace characters
+   removed.
+    a. lstrip
+    b. rstrip
+    c. remove
+    d. strip_leading
+
+Sol: (a) lstrip
+
+6. This string method returns the lowest index in the string where a specified substring
+   is found.
+    a. first_index_of
+    b. locate
+    c. find
+    d. index_of
+
+Sol: (c) find
+
+7. This operator determines whether one string is contained inside another string.
+    a. contains
+    b. is_in
+    c. ==
+    d. in
+
+Sol: (d) in
+
+8. This string method returns true if a string contains only alphabetic characters and is
+   at least one character in length.
+    a. the isalpha method
+    b. the alpha method
+    c. the alphabetic method
+    d. the isletters method
+
+Sol: (a) the isalpha method
+
+9. This string method returns true if a string contains only numeric digits and is at least
+   one character in length.
+    a. the digit method
+    b. the isdigit method
+    c. the numeric method
+    d. the isnumber method
+
+Sol: (b) the isdigit method
+
+10. This string method returns a copy of the string with all leading and trailing whitespace
+    characters removed.
+    a. clean
+    b. strip
+    c. remove_whitespace
+    d. rstrip
+
+Sol: (b) strip

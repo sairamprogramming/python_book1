@@ -1,0 +1,35 @@
+1. What does the following code display?
+    mystr = 'abc'
+    mystr2 = '123'
+    mystr += mystr2
+    print(mystr)
+
+Sol: abc123
+
+2. What does the following code display?
+    mystr = 'abc' * 3
+    print(mystr)
+
+Sol: abcabcabc
+
+3. What will the following code display?
+    mystr = 'abracadabra'
+    print(mystr[6:9])
+
+Sol: dab
+
+4. What does the following code display?
+    numbers = [1, 2, 3, 4, 5, 6, 7]
+    print(numbers[4:6])
+
+Sol: [5, 6]
+
+5. What does the following code display?
+    name = 'joe'
+    print(name.lower())
+    print(name.upper())
+    print(name)
+
+Sol: joe
+     JOE
+     joe
