@@ -1,0 +1,120 @@
+1. This term refers to an individual item in a list.
+    a. element
+    b. bin
+    c. cubbyhole
+    d. slot
+
+Sol: (a) element
+
+2. This is a number that identifies an item in a list.
+    a. element
+    b. index
+    c. bookmark
+    d. identifier
+
+Sol: (b) index
+
+3. This is the first index in a list.
+    a. −1
+    b. 1
+    c. 0
+    d. The size of the list minus one
+
+Sol: (c) 0
+
+4. This is the last index in a list.
+    a. 1
+    b. 99
+    c. 0
+    d. The size of the list minus one
+
+Sol: (d) The size of the list minus one
+
+5. This will happen if you try to use an index that is out of range for a list.
+    a. A ValueError exception will occur.
+    b. An IndexError exception will occur.
+    c. The list will be erased and the program will continue to run.
+    d. Nothing—the invalid index will be ignored.
+
+Sol: (b) An IndexError exception will occur
+
+6. This function returns the length of a list.
+    a. length
+    b. size
+    c. len
+    d. lengthof
+
+Sol: (c) len
+
+7. When the * operator’s left operand is a list and its right operand is an integer, the
+operator becomes this.
+    a. The multiplication operator
+    b. The repetition operator
+    c. The initialization operator
+    d. Nothing—the operator does not support those types of operands.
+
+Sol: (b) The repetition operator
+
+8. This list method adds an item to the end of an existing list.
+    a. add
+    b. add_to
+    c. increase
+    d. append
+
+Sol: (d) appears
+
+9. This removes an item at a specific index in a list.
+    a. the remove method
+    b. the delete method
+    c. the del statement
+    d. the kill method
+
+Sol: (c) the del statement
+
+10. Assume the following statement appears in a program:
+        mylist = []
+	Which of the following statements would you use to add the string 'Labrador' to the
+    list at index 0?
+    a. mylist[0] = 'Labrador'
+    b. mylist.insert(0, 'Labrador')
+    c. mylist.append('Labrador')
+    d. mylist.insert('Labrador', 0)
+
+Sol: Both (b) and (c), mylist.insert(0, 'Labrador') and mylist.append('Labrador')
+
+11. If you call the index method to locate an item in a list and the item is not found, this
+    happens.
+    a. A ValueError exception is raised.
+    b. An InvalidIndex exception is raised.
+    c. The method returns −1.
+    d. Nothing happens. The program continues running at the next statement.
+
+Sol: (b) An IndexError exception is raised
+
+12. This built-in function returns the highest value in a list.
+    a. highest
+    b. max
+    c. greatest
+    d. best_of
+
+Sol: (b) max
+
+13. This file object method returns a list containing the file’s contents.
+    a. to_list
+    b. getlist
+    c. readline
+    d. readlines
+
+Sol: (d) readlines
+
+4. Which of the following statements creates a tuple?
+    a. values = [1, 2, 3, 4]
+    b. values = {1, 2, 3, 4}
+    c. values = (1)
+    d. values = (1,)
+
+Sol: (d) values = (1, )
+
+
+
+

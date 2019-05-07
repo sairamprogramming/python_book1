@@ -1,0 +1,34 @@
+1. Lists in Python are immutable.
+
+Sol: False
+
+2. Tuples in Python are immutable.
+
+Sol: True
+
+3. The del statement deletes an item at a specified index in a list.
+
+Sol: True
+
+4. Assume list1 references a list. After the following statement executes, list1 and
+   list2 will reference two identical but separate lists in memory:
+   list2 = list1
+
+Sol: False
+
+5. A file object’s writelines method automatically writes a newline ('\n') after writing
+   each list item to the file.
+
+Sol: False
+
+6. You can use the + operator to concatenate two lists.
+
+Sol: True
+
+7. A list can be an element in another list.
+
+Sol: True
+
+8. You can remove an element from a tuple by calling the tuple’s remove method.
+
+Sol: False
