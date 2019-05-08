@@ -1,0 +1,3 @@
+Rather than focusing on the entire problem at hand,a module typically focuses on one relatively small portion of the problem. 
+If you’re working on a single module, you’ll have a smaller problem domain to wrap your head around. 
+This makes development easier and less error-prone.

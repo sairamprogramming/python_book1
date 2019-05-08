@@ -1,0 +1,4 @@
+Modules are typically designed so that they enforce logical boundaries between different problem domains. 
+If modules are written in a way that minimizes interdependency, there is decreased likelihood that modifications to a single module will have an impact on other parts of the program. 
+(You may even be able to make changes to a module without having any knowledge of the application outside that module.) 
+This makes it more viable for a team of many programmers to work collaboratively on a large application.
