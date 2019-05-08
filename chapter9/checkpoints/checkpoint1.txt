@@ -1,0 +1,69 @@
+9.1 An element in a dictionary has two parts. What are they called?
+
+Sol: They are the key and values.
+
+9.2 Which part of a dictionary element must be immutable?
+
+Sol:  The key must always be of an immutable data type.
+
+9.3 Suppose 'start' : 1472 is an element in a dictionary. What is the key? What is
+    the value?
+
+Sol: Key is 'start' and the value is 1472.
+
+9.4 Suppose a dictionary named employee has been created. What does the following
+    statement do?
+        employee['id'] = 54321
+
+Sol: If the key 'id' is not present in the dictionary then that key is created and to it the value
+     54321 is assigned.
+     If the key 'id' is already present then its value is replaced with 54321.
+
+9.5 What will the following code display?
+        stuff = {1 : 'aaa', 2 : 'bbb', 3 : 'ccc'}
+        print(stuff[3])
+
+Sol: 'ccc'
+
+9.6 How can you determine whether a key-value pair exists in a dictionary?
+
+Sol: By using the in operator we can determine that the a key exists in a dictionary.
+
+9.7 Suppose a dictionary named inventory exists. What does the following statement do?
+        del inventory[654]
+
+Sol: The above statement removes the key value pair with the key 654. If the key does not exists in the
+     dictionary then it will throw a KeyError.
+
+9.8 What will the following code display?
+        stuff = {1 : 'aaa', 2 : 'bbb', 3 : 'ccc'}
+        print(len(stuff))
+
+Sol: 2
+
+9.9 What will the following code display?
+        stuff = {1 : 'aaa', 2 : 'bbb', 3 : 'ccc'}
+        for k in stuff:
+        print(k)
+
+Sol: 1
+     2
+     3
+
+
+9.10 What is the difference between the dictionary methods pop and popitem ?
+
+Sol: The pop method returns and removes a certain key value pair by its key.
+     The popitem method removes a random key value pair from the dictionary.
+
+9.11 What does the items method return?
+
+Sol: It returns a dictionary view sequence of all tuples of the key value pairs in the dictionary.
+
+9.12 What does the keys method return?
+
+Sol: It return a dictionary view sequence of all keys in the dictionary.
+
+9.13 What does the values method return?
+
+Sol: It returns a dictionary view sequence of all values in the dictionary.

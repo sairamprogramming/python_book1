@@ -1,0 +1,115 @@
+9.14 Are the elements of a set ordered or unordered?
+
+Sol: Unordered.
+
+9.15 Does a set allow you to store duplicate elements?
+
+Sol: No.
+
+9.16 How do you create an empty set?
+
+Sol: You use the set() method to create an empty set.
+        my_set = set()
+        
+9.17 After the following statement executes, what elements will be stored in the
+     myset set?
+        myset = set('Jupiter')
+
+Sol: myset --> {'J','u','p','i','t','e','r'}
+
+9.18 After the following statement executes, what elements will be stored in the
+     myset set?
+        myset = set(25)
+
+Sol: Gives a TypeError, as int objects are not iterable.
+
+9.19 After the following statement executes, what elements will be stored in the
+     myset set?
+        myset = set('www xxx yyy zzz')
+
+Sol: myset --> {'w', 'x', 'y', 'z', ' '}        
+
+9.20 After the following statement executes, what elements will be stored in the
+     myset set?
+        myset = set([1, 2, 2, 3, 4, 4, 4])
+
+Sol: myset --> {1, 2, 3, 4}        
+
+9.21 After the following statement executes, what elements will be stored in the
+     myset set?
+        myset = set(['www', 'xxx', 'yyy', 'zzz'])
+
+Sol: myset --> {'www', 'xxx', 'yyy', 'zzz'}
+
+9.22 How do you determine the number of elements in a set?
+
+Sol: By using the len() function.
+
+9.23 After the following statement executes, what elements will be stored in the
+     myset set?
+        myset = set([10, 9, 8])
+        myset.update([1, 2, 3])
+
+Sol: myset --> {1, 2, 3, 9, 8, 10}        
+
+9.24 After the following statement executes, what elements will be stored in the
+     myset set?
+        myset = set([10, 9, 8])
+        myset.update('abc')
+
+Sol: myset --> {10, 9, 8, 'a'. 'b', 'c'}
+
+9.25 What is the difference between the remove and discard methods?
+
+Sol: In the remove method if the argument given is not in the list it throws KeyError 
+     exception.
+     The discard() method does not throw an exception if the given argument is not 
+     present in the set.
+
+9.26 How can you determine whether a specific element exists in a set?
+
+Sol: By using the in operator.
+
+9.27 After the following code executes, what elements will be members of set3 ?
+        set1 = set([10, 20, 30])
+        set2 = set([100, 200, 300])
+        set3 = set1.union(set2)
+
+Sol: set3 --> {10, 20, 30, 100, 200, 300}        
+
+9.28 After the following code executes, what elements will be members of set3 ?
+        set1 = set([1, 2, 3, 4])
+        set2 = set([3, 4, 5, 6])
+        set3 = set1.intersection(set2)
+
+Sol: set3 --> {3, 4}
+
+9.29 After the following code executes, what elements will be members of set3 ?
+        set1 = set([1, 2, 3, 4])
+        set2 = set([3, 4, 5, 6])
+        set3 = set1.difference(set2)
+
+Sol: {1, 2}        
+
+9.30 After the following code executes, what elements will be members of set3 ?
+        set1 = set([1, 2, 3, 4])
+        set2 = set([3, 4, 5, 6])
+        set3 = set2.difference(set1)
+
+Sol: set3 --> {5, 6}        
+
+9.31 After the following code executes, what elements will be members of set3 ?
+        set1 = set(['a', 'b', 'c'])
+        set2 = set(['b', 'c', 'd'])
+        set3 = set1.symmetric_difference(set2)
+
+Sol: set3 --> {'a', 'd'}
+
+9.32 Look at the following code:
+        set1 = set([1, 2, 3, 4])
+        set2 = set([2, 3])
+     Which of the sets is a subset of the other?
+     Which of the sets is a superset of the other?     
+
+Sol: set2 is subset of set1.
+     set1 is superset of set2.

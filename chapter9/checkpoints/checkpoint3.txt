@@ -1,0 +1,26 @@
+9.33 What is object serialization?
+
+Sol: Serializing an object is the process of converting the object to a stream of bytes that
+     can be saved to a file for later retrival.
+
+9.34 When you open a file for the purpose of saving a pickled object to it, what file
+     access mode do you use?
+
+Sol: You use the binary writing mode 'wb'.
+
+9.35 When you open a file for the purpose of retrieving a pickled object from it, what
+     file access mode do you use?
+
+Sol: You use the binary read mode 'rb'.
+
+9.36 What module do you import if you want to pickle objects?
+
+Sol: pickle module.
+
+9.37 What function do you call to pickle an object?
+
+Sol: dump(...) function.
+
+9.38 What function do you call to retrieve and unpickle an object?
+
+Sol: load(...) function.
