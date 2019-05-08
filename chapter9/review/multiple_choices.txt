@@ -1,0 +1,140 @@
+1. You can use the _________ operator to determine whether a key exists in a dictionary.
+    a. &
+    b. in
+    c. ˆ
+    d. ?
+
+Sol: (b) in
+
+2. You use _________ to delete an element from a dictionary.
+    a. the remove method
+    b. the erase method
+    c. the delete method
+    d. the del statement
+
+Sol: (d) the del statement
+
+3. The _________ function returns the number of elements in a dictionary:
+    a. size()
+    b. len()
+    c. elements()
+    d. count()
+
+Sol: (b) len()    
+
+4. You can use _________ to create an empty dictionary.
+    a. {}
+    b. ()
+    c. []
+    d. empty()
+
+Sol: (a) {}    
+
+5. The _________ method returns a randomly selected key-value pair from a dictionary.
+    a. pop()
+    b. random()
+    c. popitem()
+    d. rand_pop()
+
+Sol: (c) popitem()    
+
+6. The _________ method returns the value associated with a specified key and removes
+   that key-value pair from the dictionary.
+    a. pop()
+    b. random()
+    c. popitem()
+    d. rand_pop()
+
+Sol: (a) pop()
+
+7. The _________ dictionary method returns the value associated with a specified key.
+   If the key is not found, it returns a default value.
+    a. pop()
+    b. key()
+    c. value()
+    d. get()
+
+Sol: (d) get()
+
+8. The _________ method returns all of a dictionary’s keys and their associated values as
+   a sequence of tuples.
+    a. keys_values()
+    b. values()
+    c. items()
+    d. get()
+
+Sol: (c) items()
+
+9. The following function returns the number of elements in a set:
+    a. size()
+    b. len()
+    c. elements()
+    d. count()
+
+Sol: (b) len()
+
+10. You can add one element to a set with this method.
+    a. append
+    b. add
+    c. update
+    d. merge
+
+Sol: (b) add
+
+11. You can add a group of elements to a set with this method.
+    a. append
+    b. add
+    c. update
+    d. merge
+
+Sol: (c) update
+
+12. This set method removes an element, but does not raise an exception if the element is
+    not found.
+    a. remove
+    b. discard
+    c. delete
+    d. erase
+
+Sol: discard
+
+13. This set method removes an element and raises an exception if the element is not
+    found.
+    a. remove
+    b. discard
+    c. delete
+    d. erase
+
+Sol: (a) remove
+
+14. This operator can be used to find the union of two sets.
+    a. |
+    b. &
+    c. −
+    d. ˆ
+
+Sol: (a) |
+
+15. This operator can be used to find the difference of two sets.
+    a. |
+    b. &
+    c. −
+    d. ˆ
+
+Sol: (c) -
+
+16. This operator can be used to find the intersection of two sets.
+    a. |
+    b. &
+    c. −
+    d. ˆ
+
+Sol: (b) &
+
+17. This operator can be used to find the symmetric difference of two sets.
+    a. |
+    b. &
+    c. −
+    d. ˆ
+
+Sol: (d) ^    

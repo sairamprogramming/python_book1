@@ -1,0 +1,43 @@
+1. The keys in a dictionary must be mutable objects.
+
+Sol: False
+
+2. Dictionaries are not sequences.
+
+Sol: False
+
+3. A tuple can be a dictionary key.
+
+Sol: True
+
+4. A list can be a dictionary key.
+
+Sol: False
+
+5. The dictionary method popitem does not raise an exception if it is called on an empty
+   dictionary.
+
+Sol: False
+
+6. The following statement creates an empty dictionary:
+        mydct = {}
+
+Sol: True
+
+7. The following statement creates an empty set:
+        myset = ()
+
+Sol: False
+
+8. Sets store their elements in an unordered fashion.
+
+Sol: True
+
+9. You can store duplicate elements in a set.
+
+Sol: False
+
+10. The remove method raises an exception if the specified element is not found in the
+    set.
+
+Sol: True    

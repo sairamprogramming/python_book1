@@ -1,0 +1,123 @@
+1. What will the following code display?
+        dct = {'Monday':1, 'Tuesday':2, 'Wednesday':3}
+        print(dct['Tuesday'])
+
+Sol: 2
+
+2. What will the following code display?
+        dct = {'Monday':1, 'Tuesday':2, 'Wednesday':3}
+        print(dct.get('Monday', 'Not found'))
+
+Sol: 1
+        
+3. What will the following code display?
+        dct = {'Monday':1, 'Tuesday':2, 'Wednesday':3}
+        print(dct.get('Friday', 'Not found'))
+
+Sol: Not found
+
+4. What will occur when the following code is executed?
+        months = {'Jan':1, 'Feb':2, 'Mar':3}
+        months[2]
+
+Sol: Will raise a KeyError.
+
+5. How do you delete an element from a dictionary?
+
+Sol: Using the del statement. Can also remove items using the pop() and popitems() method.
+
+6. How do you determine the number of elements that are stored in a dictionary?
+
+Sol: Using the len() function.
+
+7. What will the following code display?
+        dct = {0:[1, 2, [3, 4], 5]}
+        print(dct[0][2][1])
+
+Sol: 4        
+
+8. What values will the following code display? (Don’t worry about the order in which
+   they will be displayed.)
+        dct = {1:[0, 1], 2:[2, 3], 3:[4, 5]}
+        for k in dct:
+        print(k)
+
+Sol: 1
+     2
+     3
+
+9. After the following statement executes, what elements will be stored in the myset set?
+        myset = set('Saturn')
+
+Sol: myset --> {'S','a','t','u','r','n'}        
+
+10. After the following statement executes, what elements will be stored in the myset set?
+        myset = set(10)
+
+Sol: Will give a TypeError, since an int is not iterable.
+
+11. After the following statement executes, what elements will be stored in the myset set?
+        myset = set('a bb ccc dddd')
+
+Sol: myset --> {'a', 'b', 'c', 'd', ' '}        
+
+12. After the following statement executes, what elements will be stored in the myset set?
+        myset = set([2, 4, 4, 6, 6, 6, 6])
+
+Sol: myset --> {2, 4, 6}        
+
+13. After the following statement executes, what elements will be stored in the myset set?
+        myset = set(['a', 'bb', 'ccc', 'dddd'])
+
+Sol: myset --> {'a', 'bb', 'ccc', 'dddd'}
+
+14. What will the following code display?
+        myset = set('1 2 3')
+        print(len(myset))
+
+Sol: 4        
+
+15. After the following code executes, what elements will be members of set3 ?
+        set1 = set([10, 20, 30, 40])
+        set2 = set([40, 50, 60])
+        set3 = set1.union(set2)
+
+Sol: set3 --> {10, 20, 30, 40, 50, 60}        
+
+16. After the following code executes, what elements will be members of set3 ?
+        set1 = set(['o', 'p', 's', 'v'])
+        set2 = set(['a', 'p', 'r', 's'])
+        set3 = set1.intersection(set2)
+
+Sol: set3 --> {'p', 's'}        
+
+17. After the following code executes, what elements will be members of set3 ?
+        set1 = set(['d', 'e', 'f'])
+        set2 = set(['a', 'b', 'c', 'd', 'e'])
+        set3 = set1.difference(set2)
+
+Sol: set3 --> {f}
+
+18. After the following code executes, what elements will be members of set3 ?
+        set1 = set(['d', 'e', 'f'])
+        set2 = set(['a', 'b', 'c', 'd', 'e'])
+        set3 = set2.difference(set1)
+
+Sol: set3 --> {'a', 'b', 'c'}
+
+19. After the following code executes, what elements will be members of set3 ?
+        set1 = set([1, 2, 3])
+        set2 = set([2, 3, 4])
+        set3 = set1.symmetric_difference(set2)
+
+Sol: set3 --> {1, 4}        
+
+20. Look at the following code:
+        set1 = set('abc')
+        set2 = set('def')
+    What would be the result of calculating the intersection of set1 and set2 ?
+    Which other set operation would produce the same result as the union of set1 and
+    set2?
+
+Sol: An empty set 
+     Symmetric Difference operation will produce the same result as the union operation.
