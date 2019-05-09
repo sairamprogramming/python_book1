@@ -1,0 +1,83 @@
+1. A recursive function _______________.
+    a. calls a different function
+    b. abnormally halts the program
+    c. calls itself
+    d. can only be called once
+
+Sol: (c) calls itself
+
+2. A function is called once from a program’s main function, then it calls itself four times.
+   The depth of recursion is _______________.
+    a. one
+    b. four
+    c. five
+    d. nine
+
+Sol: (b) four
+
+3. The part of a problem that can be solved without recursion is the _______________
+   case.
+    a. base
+    b. solvable
+    c. known
+    d. iterative
+
+Sol: (a) base
+
+4. The part of a problem that is solved with recursion is the _______________ case.
+    a. base
+    b. iterative
+    c. unknown
+    d. recursion
+
+Sol: (d) recursion
+
+5. When a function explicitly calls itself, it is called _______________ recursion.
+    a. explicit
+    b. modal
+    c. direct
+    d. indirect
+
+Sol: (c) direct
+
+6. When function A calls function B, which calls function A, it is called _______________
+   recursion.
+    a. implicit
+    b. modal
+    c. direct
+    d. indirect
+
+Sol: (d) indirect
+
+7. Any problem that can be solved recursively can also be solved with a _______________.
+    a. decision structure
+    b. loop
+    c. sequence structure
+    d. case structure
+
+Sol: (b) loop
+
+8. Actions taken by the computer when a function is called, such as allocating memory
+   for parameters and local variables, are referred to as _______________.
+    a. overhead
+    b. set up
+    c. clean up
+    d. synchronization
+
+Sol: (a) overhead
+
+9. A recursive algorithm must _______________ in the recursive case.
+    a. solve the problem without recursion
+    b. reduce the problem to a smaller version of the original problem
+    c. acknowledge that an error has occurred and abort the program
+    d. enlarge the problem to a larger version of the original problem
+
+Sol: (b) reduce the problem to a smaller version of the original problem.
+
+10. A recursive algorithm must _______________ in the base case.
+    a. solve the problem without recursion
+    b. reduce the problem to a smaller version of the original problem
+    c. acknowledge that an error has occurred and abort the program
+    d. enlarge the problem to a larger version of the original problem
+
+Sol: (a) solve the problem without recursion    

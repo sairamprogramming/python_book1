@@ -1,0 +1,16 @@
+1. An algorithm that uses a loop will usually run faster than an equivalent recursive algorithm.
+
+Sol: True
+
+2. Some problems can be solved through recursion only.
+
+Sol: True
+
+3. It is not necessary to have a base case in all recursive algorithms.
+
+Sol: True
+
+4. In the base case, a recursive method calls itself with a smaller version of the original
+   problem.
+
+Sol: False   
