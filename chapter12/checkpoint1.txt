@@ -1,0 +1,27 @@
+12.1 It is said that a recursive algorithm has more overhead than an iterative algorithm.
+     What does this mean?
+
+Sol: Recursive algorithm have more overhead means, that since a recursive algorithm involves
+     calling a function it requires more actions to be performed by the computer.
+     These actions of allocating memory for parameters and local variables, storing the address
+     of the program location where control returns after the function terminates.
+
+12.2 What is a base case?
+
+Sol: The base case is the case in which the problem can be solved without recursion.
+
+12.3 What is a recursive case?
+
+Sol: The recursive case is the case where we use recursion on the smaller similar problem.
+
+12.4 What causes a recursive algorithm to stop calling itself?
+
+Sol: The base case.
+
+12.5 What is direct recursion? What is indirect recursion?
+
+Sol: Direct recursion is where the function calls itself.
+     Indirect recursion is where several functions are involved in implementing the recursive
+     algorithm.
+     Example if indirect recursion is when function A calls function B, which in turn calls function
+     A.
