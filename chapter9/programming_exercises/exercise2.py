@@ -1,3 +1,5 @@
+# Implemented without using dictionries.
+
 import random
 
 def main():
