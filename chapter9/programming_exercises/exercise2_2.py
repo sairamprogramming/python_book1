@@ -3,12 +3,17 @@
 import random
 
 def main():
+    # Getting the dictionary of captial: state form.    
     capitals = get_states_capitals('StatesCapitals.txt')
 
+    # Getting the total number of questions in the quiz.
     total_questions = int(input("How many questions? "))
     correct_answers = 0
 
-    for i in range(total_questions):
+    # Main body of the program which formuates questions,
+    # ask the user of the answer and checks if the given
+    # answer is correct.
+    for unused_variable in range(total_questions):
         q_number = random.randint(0, len(capitals))
         capital = list(capitals.keys())[q_number]
         state = capitals[capital]
@@ -25,6 +30,8 @@ def main():
 
     print('\nThe total number of answers you got right is ' + str(correct_answers))            
 
+# This function returns a dictonary of capitals:states
+# to the calling function.
 def get_states_capitals(filename):
     infile = open(filename, 'r') 
 
@@ -40,4 +47,5 @@ def get_states_capitals(filename):
     
     return capitals_dict
 
+# Calling the main function
 main()

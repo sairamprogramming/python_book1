@@ -3,12 +3,16 @@
 import random
 
 def main():
+    # Getting the states and capitals list from the file.
     states, capitals = get_states_capitals('StatesCapitals.txt')
 
+    # Getting the total number of questions for the quiz
     total_questions = int(input("How many questions? "))
     correct_answers = 0
 
-    for i in range(total_questions):
+    # The main body of the program that asks the quiz and checks
+    # if the given answers are right.
+    for unused_variable in range(total_questions):
         q_number = random.randint(0, len(states))
 
         print('What is the capital of ' + states[q_number] +"?")
@@ -23,6 +27,7 @@ def main():
 
     print('\nThe total number of answers you got right is ' + str(correct_answers))            
 
+# This function returns two lists that are the states and capitals.
 def get_states_capitals(filename):
     infile = open(filename, 'r') 
 
@@ -45,4 +50,5 @@ def get_states_capitals(filename):
 
     return states, capitals        
 
+# Calling the main function.
 main()
